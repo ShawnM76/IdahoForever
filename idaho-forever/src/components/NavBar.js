@@ -6,13 +6,20 @@ function NavBar() {
   return (
     <div className='nav-div'>
       <image src={NavPhoto} />
-      <NavLink exact to='/'>
-        {' '}
-        Home{' '}
-      </NavLink>
-      <NavLink exact to='/about'>
-        About Us{' '}
-      </NavLink>
+      <div className='nav-bar'>
+        <NavLink exact to='/'>
+          {' '}
+          Home{' '}
+        </NavLink>
+        <NavLink to='/about'>About Us </NavLink>
+        <NavLink to='/brews'>Breweries </NavLink>
+        <NavLink to='/concerts'>Concerts </NavLink>
+        <NavLink to='/restraunts'>Restraunts </NavLink>
+        <NavLink to='/events'>Events </NavLink>
+        <NavLink to='/trails'>Trails </NavLink>
+        <NavLink to='/fishing'>Fishing </NavLink>
+        <NavLink to='/clothing'>Clothing </NavLink>
+      </div>
     </div>
   );
 }
