@@ -42,11 +42,18 @@
   height: 300px;
 }
 
-.top-images {
+/* .top-images {
   background-color: aqua;
-}
+} */
 
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 0px 20px 0px;
 }
